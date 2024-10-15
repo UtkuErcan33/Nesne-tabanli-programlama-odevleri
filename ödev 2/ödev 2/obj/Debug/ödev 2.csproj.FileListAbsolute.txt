@@ -1,0 +1,6 @@
+C:\Users\utkue\source\repos\ödev 2\ödev 2\bin\Debug\ödev 2.exe.config
+C:\Users\utkue\source\repos\ödev 2\ödev 2\bin\Debug\ödev 2.exe
+C:\Users\utkue\source\repos\ödev 2\ödev 2\bin\Debug\ödev 2.pdb
+C:\Users\utkue\source\repos\ödev 2\ödev 2\obj\Debug\ödev 2.csproj.CoreCompileInputs.cache
+C:\Users\utkue\source\repos\ödev 2\ödev 2\obj\Debug\ödev 2.exe
+C:\Users\utkue\source\repos\ödev 2\ödev 2\obj\Debug\ödev 2.pdb

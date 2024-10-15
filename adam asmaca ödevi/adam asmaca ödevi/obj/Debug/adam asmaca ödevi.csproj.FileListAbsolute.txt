@@ -1,0 +1,7 @@
+C:\Users\utkue\source\repos\adam asmaca ödevi\adam asmaca ödevi\obj\Debug\adam asmaca ödevi.csprojAssemblyReference.cache
+C:\Users\utkue\source\repos\adam asmaca ödevi\adam asmaca ödevi\obj\Debug\adam asmaca ödevi.csproj.CoreCompileInputs.cache
+C:\Users\utkue\source\repos\adam asmaca ödevi\adam asmaca ödevi\bin\Debug\adam asmaca ödevi.exe.config
+C:\Users\utkue\source\repos\adam asmaca ödevi\adam asmaca ödevi\bin\Debug\adam asmaca ödevi.exe
+C:\Users\utkue\source\repos\adam asmaca ödevi\adam asmaca ödevi\bin\Debug\adam asmaca ödevi.pdb
+C:\Users\utkue\source\repos\adam asmaca ödevi\adam asmaca ödevi\obj\Debug\adam asmaca ödevi.exe
+C:\Users\utkue\source\repos\adam asmaca ödevi\adam asmaca ödevi\obj\Debug\adam asmaca ödevi.pdb

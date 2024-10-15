@@ -1,0 +1,7 @@
+C:\Users\utkue\source\repos\ödev 3\ödev 3\obj\Debug\ödev 3.csprojAssemblyReference.cache
+C:\Users\utkue\source\repos\ödev 3\ödev 3\obj\Debug\ödev 3.csproj.CoreCompileInputs.cache
+C:\Users\utkue\source\repos\ödev 3\ödev 3\bin\Debug\ödev 3.exe.config
+C:\Users\utkue\source\repos\ödev 3\ödev 3\bin\Debug\ödev 3.exe
+C:\Users\utkue\source\repos\ödev 3\ödev 3\bin\Debug\ödev 3.pdb
+C:\Users\utkue\source\repos\ödev 3\ödev 3\obj\Debug\ödev 3.exe
+C:\Users\utkue\source\repos\ödev 3\ödev 3\obj\Debug\ödev 3.pdb
