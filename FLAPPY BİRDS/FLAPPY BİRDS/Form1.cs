@@ -12,7 +12,7 @@ namespace FLAPPY_BİRDS
 {
     public partial class anaEkran : Form
     {
-
+        // bu bölgede öncelikle yer çekimini yani kuşun yere düşme hızını ,boruların geçme hızını ve skoru tanımlıyoruz
         int boruHızı = 8;
         int yerÇekimi = 10;
         int skor = 0;
@@ -34,12 +34,13 @@ namespace FLAPPY_BİRDS
 
         private void gamekeyisdown(object sender, KeyEventArgs e)
         {
+            //bu satırda kuşun ağırlığını azalt yani yere düşmesini sağlamış oluyoruz 
             if (e.KeyCode == Keys.Space)
             {
                 yerÇekimi = -10;
             }
         }
-
+        //bu fonksiyonumuzun içinde timer koydumuz oyunun içeirssinde saniyeler içerisinde sürekli yenilemesini sağlıyoruz ve kuşun yüksekliğini ayarlıyoruz,boruların konumunu ayarlıyoruz,skoru arttırıyoruz ve kuşun body si ile kolonların bodysi çarpışırsa veya zemine değer veya çok üste çıkarsa oyunu bitirmesini sağlıyoruz
         private void gametimerEvent(object sender, EventArgs e)
         {
             bird.Top += yerÇekimi;
@@ -74,7 +75,7 @@ namespace FLAPPY_BİRDS
             }
 
         }
-
+        //yerçekimini yükselterek yükselmesii sağlıyoruz
         private void gamekeyisup(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space)
@@ -82,6 +83,7 @@ namespace FLAPPY_BİRDS
                 yerÇekimi = 10;
             }
         }
+        //oyunun sonlandırıyoruz
         void EndGame()
         {
             gametimer.Stop();
