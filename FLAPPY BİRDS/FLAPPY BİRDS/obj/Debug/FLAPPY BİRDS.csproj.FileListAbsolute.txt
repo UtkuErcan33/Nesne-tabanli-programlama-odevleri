@@ -1,0 +1,10 @@
+C:\Users\utkue\source\repos\FLAPPY BİRDS\FLAPPY BİRDS\bin\Debug\FLAPPY BİRDS.exe.config
+C:\Users\utkue\source\repos\FLAPPY BİRDS\FLAPPY BİRDS\bin\Debug\FLAPPY BİRDS.exe
+C:\Users\utkue\source\repos\FLAPPY BİRDS\FLAPPY BİRDS\bin\Debug\FLAPPY BİRDS.pdb
+C:\Users\utkue\source\repos\FLAPPY BİRDS\FLAPPY BİRDS\obj\Debug\FLAPPY BİRDS.csprojAssemblyReference.cache
+C:\Users\utkue\source\repos\FLAPPY BİRDS\FLAPPY BİRDS\obj\Debug\FLAPPY_BİRDS.anaEkran.resources
+C:\Users\utkue\source\repos\FLAPPY BİRDS\FLAPPY BİRDS\obj\Debug\FLAPPY_BİRDS.Properties.Resources.resources
+C:\Users\utkue\source\repos\FLAPPY BİRDS\FLAPPY BİRDS\obj\Debug\FLAPPY BİRDS.csproj.GenerateResource.cache
+C:\Users\utkue\source\repos\FLAPPY BİRDS\FLAPPY BİRDS\obj\Debug\FLAPPY BİRDS.csproj.CoreCompileInputs.cache
+C:\Users\utkue\source\repos\FLAPPY BİRDS\FLAPPY BİRDS\obj\Debug\FLAPPY BİRDS.exe
+C:\Users\utkue\source\repos\FLAPPY BİRDS\FLAPPY BİRDS\obj\Debug\FLAPPY BİRDS.pdb
