@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{71427005-22EE-4DFE-98F3-CAE9AFF0693A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HAL_Projesi</RootNamespace>
+    <AssemblyName>HAL_Projesi</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v18.1" />
+    <Reference Include="DevExpress.Data.v18.1" />
+    <Reference Include="DevExpress.Utils.v18.1" />
+    <Reference Include="DevExpress.Sparkline.v18.1.Core" />
+    <Reference Include="DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v18.1" />
+    <Reference Include="DevExpress.Printing.v18.1.Core" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alım\hal_içi_alım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alım\hal_içi_alım.Designer.cs">
+      <DependentUpon>hal_içi_alım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ana_Ekran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ana_Ekran.Designer.cs">
+      <DependentUpon>Ana_Ekran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekleme\Kasa_Ekleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekleme\Kasa_Ekleme.Designer.cs">
+      <DependentUpon>Kasa_Ekleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekleme\Müstahsil_Ekleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekleme\Müstahsil_Ekleme.Designer.cs">
+      <DependentUpon>Müstahsil_Ekleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekleme\Müsteri_Ekleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekleme\Müsteri_Ekleme.Designer.cs">
+      <DependentUpon>Müsteri_Ekleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekleme\Plaka_Ekleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekleme\Plaka_Ekleme.Designer.cs">
+      <DependentUpon>Plaka_Ekleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekleme\Sifre_Ekranı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekleme\Sifre_Ekranı.Designer.cs">
+      <DependentUpon>Sifre_Ekranı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="geçmiş\geçmiş satışlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="geçmiş\geçmiş satışlar.Designer.cs">
+      <DependentUpon>geçmiş satışlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="geçmiş\geçmiş_alım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="geçmiş\geçmiş_alım.Designer.cs">
+      <DependentUpon>geçmiş_alım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="giriş_kayıtlarıDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>giriş_kayıtlarıDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="alım\Müstahsil_Alım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alım\Müstahsil_Alım.Designer.cs">
+      <DependentUpon>Müstahsil_Alım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="giriş_kayıtlarıDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>giriş_kayıtlarıDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="giriş_kayıtlarıDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>giriş_kayıtlarıDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ekleme\Ürün_Ekleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekleme\Ürün_Ekleme.Designer.cs">
+      <DependentUpon>Ürün_Ekleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="satış\Sevkiyat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="satış\Sevkiyat.Designer.cs">
+      <DependentUpon>Sevkiyat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="satış\DükkanÖnü.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="satış\DükkanÖnü.Designer.cs">
+      <DependentUpon>DükkanÖnü.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="alım\hal_içi_alım.resx">
+      <DependentUpon>hal_içi_alım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ana_Ekran.resx">
+      <DependentUpon>Ana_Ekran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekleme\Kasa_Ekleme.resx">
+      <DependentUpon>Kasa_Ekleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekleme\Müstahsil_Ekleme.resx">
+      <DependentUpon>Müstahsil_Ekleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekleme\Müsteri_Ekleme.resx">
+      <DependentUpon>Müsteri_Ekleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekleme\Plaka_Ekleme.resx">
+      <DependentUpon>Plaka_Ekleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekleme\Sifre_Ekranı.resx">
+      <DependentUpon>Sifre_Ekranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alım\Müstahsil_Alım.resx">
+      <DependentUpon>Müstahsil_Alım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="geçmiş\geçmiş satışlar.resx">
+      <DependentUpon>geçmiş satışlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="geçmiş\geçmiş_alım.resx">
+      <DependentUpon>geçmiş_alım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Ekleme\Ürün_Ekleme.resx">
+      <DependentUpon>Ürün_Ekleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="satış\Sevkiyat.resx">
+      <DependentUpon>Sevkiyat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="satış\DükkanÖnü.resx">
+      <DependentUpon>DükkanÖnü.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="giriş_kayıtlarıDataSet.xsc">
+      <DependentUpon>giriş_kayıtlarıDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="giriş_kayıtlarıDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>giriş_kayıtlarıDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="giriş_kayıtlarıDataSet.xss">
+      <DependentUpon>giriş_kayıtlarıDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="giriş_kayıtlarıDataSet1.xsc">
+      <DependentUpon>giriş_kayıtlarıDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="giriş_kayıtlarıDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>giriş_kayıtlarıDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="giriş_kayıtlarıDataSet1.xss">
+      <DependentUpon>giriş_kayıtlarıDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="giriş_kayıtlarıDataSet2.xsc">
+      <DependentUpon>giriş_kayıtlarıDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="giriş_kayıtlarıDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>giriş_kayıtlarıDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="giriş_kayıtlarıDataSet2.xss">
+      <DependentUpon>giriş_kayıtlarıDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %2812%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
